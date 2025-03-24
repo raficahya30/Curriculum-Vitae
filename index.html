@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Rafi Cahya Prastawa</title>
+    <style>
+        
+        #opening-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            transition: opacity 1s ease-out;
+        }
+        
+        #opening-content {
+            max-width: 600px;
+            padding: 20px;
+        }
+        
+        #opening-title {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #4CAF50;
+            animation: fadeIn 2s;
+        }
+        
+        #opening-subtitle {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            animation: fadeIn 3s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            position: relative;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .container {
+            width: 60%;
+            max-width: 900px;
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+        }
+        
+        h3 {
+            font-size: 18px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+        
+        p {
+            margin: 5px 0;
+            
+        }
+        
+        ul {
+            margin: 5px 0;
+            padding-left: 20px;
+            text-align: left;
+        }
+        
+        li {
+            text-align: justify;
+            margin-bottom: 5px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .header p {
+            margin: 5px 0;
+            text-align: center;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .section ul {
+            list-style-type: disc;
+        }
+        
+        .section .sub-section {
+            margin-left: 20px;
+        }
+        
+        .section .sub-section ul {
+            list-style-type: circle;
+        }
+        
+        .language-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        
+        .language-table td {
+            padding: 5px;
+            border: 1px solid #000;
+            text-align: center;
+        }
+        
+        .profile-picture {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 2px solid #000;
+            overflow: hidden;
+        }
+        
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="opening-screen">
+        <div id="opening-content">
+            <h1 id="opening-title">Hello World!</h1>
+            <p id="opening-subtitle">Perkenalkan saya Rafi Cahya Prastawa, anda telah memasuki laman biodata CV saya!</p>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        
+        <div class="profile-picture">
+            <img src="Rafi Cahya Prastawa_Foto Diri.jpg" alt="Profile Picture">
+        </div>
+
+        <div class="header">
+            <h1>RAFI CAHYA PRASTAWA</h1>
+            <p>082142901855 | rafiincome13@gmail.com | <a href="https://www.linkedin.com/in/rafi-cahya-prastawa" target="_blank">www.linkedin.com/in/rafi-cahya-prastawa</a> | Malang, East Java, Indonesia</p>
+        </div>
+
+        <div class="section">
+            <h2>EDUCATION</h2>
+            <h3>SMAN 4 Malang</h3>
+            <p><em>High School</em> in <em>Science</em> | GPA: 91.70 / 100</p>
+            <p>Jl. Tugu No.1, Kec. Klojen, Kota Malang, Jawa Timur</p>
+            <p>2020 - 2023</p>
+
+            <h3>Universitas Brawijaya</h3>
+            <p><em>Bachelor</em> in <em>Information System</em> | GPA: 3.76 / 4.0</p>
+            <p>Jl. Veteran No.10-11, Kec. Lowokwaru, Kota Malang, Jawa Timur</p>
+            <p>2023 - Present</p>
+            <p>Successfully entered through the national selection achievement based (SNBP) and managed to pass with approximately a 7%</p>
+        </div>
+
+        <div class="section">
+            <h2>ORGANIZATION</h2>
+            <h3>Team Member Of Strategic Business Growth ERBD</h3>
+            <p><em>AIESEC in Universitas Brawijaya</em></p>
+            <ul>
+                <li>Involved in developing Business Management in internal member, Maintain external relations, and approach external partner to make a deal with AIESEC in UB, and success to create Market Research for partner around 150.</li>
+                <li>Have been dealt with partner like ikhove malang, Bright Internship, CIMB Niaga, Paragon, etc.</li>
+                <li>And success to make Rp150.000.000 revenue from inkind partner and make Rp60.000.000 from financial partner so far</li>
+            </ul>
+
+            <h3>Head of Partnership division of Youth Today summer X Paragon Corp 2024</h3>
+            <p><em>AIESEC in Universitas Brawijaya</em></p>
+            <ul>
+                <li>Actively involved in Youth Today summer 2024 in collaboration with paragon and serving as Organizing Committee Vice President of Partnership, responsible to maintain external relations especially for financial partner and in kind partner and get 10.000.000+ revenue</li>
+            </ul>
+
+            <h3>Organizing Committee Finance and Logistic AIESEC Impact Forum 2024</h3>
+            <p><em>AIESEC in Universitas Brawijaya</em></p>
+            <ul>
+                <li>Actively responsible to managed operational cash flow around Rp5.000.000 for this event, and also market research around potential venue (hotel and meeting room) for this event</li>
+            </ul>
+
+            <h3>Team Member of Project Operation Incoming Global Volunteer</h3>
+            <p><em>AIESEC in Universitas Brawijaya</em></p>
+            <ul>
+                <li>Actively Involved in team member of Strategic Business Growth that responsible to developing project operations of Incoming Global Volunteer AIESEC in Universitas Brawijaya. especially finance and logistic, Incoming Global Volunteer is one of the exchange programs that doing some cultural exchange in malang with 20 Exchange Participants.</li>
+                <li>Maintain the financial report around Rp20.000.000 of revenue</li>
+            </ul>
+
+            <h3>Event Committee Onboarding Nexgen Consulting UB</h3>
+            <p><em>Nexgen Consulting Academy UB</em></p>
+            <ul>
+                <li>Onboarding event for the project analyst and project leader from NexGen Consulting Academy UB. And this event is attended by Rector of UB (prof widodo) and amazing speakers from BCG, McKinsey, and PwC.</li>
+                <li>Maintain to handle the registration at onboarding event nexgen consulting UB that attended by 80+ project analyst and project leader - responsible to keep the onboarding event running smoothly - make sure the delegates attends rate above 85%</li>
+            </ul>
+
+            <h3>Staff of Public Relations Champions Talk 2024</h3>
+            <p><em>BEM of Computer Science Faculty UB</em></p>
+            <p><em>Faculty of Computer Science Universitas Brawijaya</em></p>
+            <p>2024 - 2024</p>
+            <ul>
+                <li>Actively responsible to keep all of the stakeholders for the event are coordinated correctly, and also responsible to keep all of the social media content are good, and handle 200 participant as an PIC communications.</li>
+            </ul>
+
+            <h3>Head of Public Relations at Inauguration FILKOM 2023</h3>
+            <p><em>BEM of Computer Science Faculty UB</em></p>
+            <p><em>Faculty of Computer Science Universitas Brawijaya</em></p>
+            <p>2023 - 2023</p>
+            <ul>
+                <li>Actively Involve and success to make Rp2.000.000 from financial partner from Blossom Zones Malang. success to create Market Research for partner around 200</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>CERTIFICATION</h2>
+            <ul>
+                <li>Be an Entrepreneur, IBM, Number: Nw5p5PPr, 2024</li>
+                <li>Artificial Intelligence Fundamental, IBM, Number: SMTbXmGL, 2024</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>SKILL</h2>
+            <p><strong>Soft Skill</strong>: Public Speaking, Managerial, Negotiations, Communications, Time Management</p>
+            <p><strong>Hard Skill</strong>: Microsoft Office, Programming, Social Media</p>
+            <p><strong>Software Skill</strong>: Word, Excel, Spreadsheet, Canva, Vscode, Capcut, Social Media (Tiktok, Instagram)</p>
+        </div>
+
+        <div class="section">
+            <h2>LANGUAGE</h2>
+            <table class="language-table">
+                <tr>
+                    <td>Indonesia </td>
+                    <td>Proficient</td>
+                </tr>
+                <tr>
+                    <td>English </td>
+                    <td>Advanced</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        
+        setTimeout(function() {
+            var openingScreen = document.getElementById('opening-screen');
+            openingScreen.style.opacity = '0';
+            
+            
+            setTimeout(function() {
+                openingScreen.style.display = 'none';
+            }, 1000);
+        }, 4000);
+    </script>
+</body>
+</html>
